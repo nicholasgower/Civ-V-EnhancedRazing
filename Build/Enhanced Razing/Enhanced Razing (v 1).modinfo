@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7ec1c47e-5708-4065-b838-9277f2fa8af5" version="1">
+  <Properties>
+    <Name>Enhanced Razing</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds ideological tenets to each ideology that enhance razing in different ways, and adds a World Congress resolution to ban raz</Teaser>
+    <Description>Adds ideological tenets to each ideology that enhance razing in different ways, and adds a World Congress resolution to ban razing.</Description>
+    <Authors>Nicholas</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="82A72C93066FF4465E86D7C8EEF7AE0A" import="0">Policies.sql</File>
+    <File md5="C6EC33B116EC094657FAE8E7824685C8" import="0">Policies_Localization.sql</File>
+    <File md5="DA7D944D96666B0E7F7735E39BCD1CD4" import="0">RazeEffects.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Policies_Localization.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

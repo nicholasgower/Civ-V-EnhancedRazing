@@ -24,7 +24,7 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="82A72C93066FF4465E86D7C8EEF7AE0A" import="0">Policies.sql</File>
+    <File md5="7C0BF87AE3D00CC1818B6D9BB9513FB2" import="0">Policies.sql</File>
     <File md5="C6EC33B116EC094657FAE8E7824685C8" import="0">Policies_Localization.sql</File>
     <File md5="DA7D944D96666B0E7F7735E39BCD1CD4" import="0">RazeEffects.lua</File>
   </Files>
